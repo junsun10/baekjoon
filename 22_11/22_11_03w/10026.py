@@ -1,4 +1,6 @@
-# 적록색약
+# 적록색약 ( 정답 )
+# 알고리즘 : BFS
+# BFS 반복
 
 from collections import deque
 
