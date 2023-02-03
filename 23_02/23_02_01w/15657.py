@@ -24,4 +24,4 @@ def dfs():
 
 for i in range(n):
     answer = [1, [arr[i], i]]
-dfs()
+    dfs()
