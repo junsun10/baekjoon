@@ -28,8 +28,6 @@ while queue:
 
             if x2+1 < n and arr[x2+1][y2] == 0 and arr[x2+1][y2+1] == 0:
                 queue.append((2, x2, y2, x2+1, y2+1))
-        # if y2+1 < n and arr[x2][y2+1] == 0 and x2+1 < n and arr[x2+1][y2] == 0 and arr[x2+1][y2+1] == 0:
-        #     queue.append((2, x2, y2, x2+1, y2+1))
 
     elif s == 1:
         if x2+1 < n and arr[x2+1][y2] == 0:
@@ -37,8 +35,6 @@ while queue:
 
             if y2+1 < n and arr[x2][y2+1] == 0 and arr[x2+1][y2+1] == 0:
                 queue.append((2, x2, y2, x2+1, y2+1))
-        # if x2+1 < n and arr[x2+1][y2] == 0 and y2+1 < n and arr[x2][y2+1] == 0 and arr[x2+1][y2+1] == 0:
-        #     queue.append((2, x2, y2, x2+1, y2+1))
 
     else:
         if y2+1 < n and arr[x2][y2+1] == 0:
@@ -49,7 +45,5 @@ while queue:
 
             if y2+1 < n and arr[x2][y2+1] == 0 and arr[x2+1][y2+1] == 0:
                 queue.append((2, x2, y2, x2+1, y2+1))
-        # if x2+1 < n and arr[x2+1][y2] == 0 and y2+1 < n and arr[x2][y2+1] == 0 and arr[x2+1][y2+1] == 0:
-        #     queue.append((2, x2, y2, x2+1, y2+1))
 
 print(answer)
