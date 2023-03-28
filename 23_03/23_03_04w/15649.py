@@ -1,4 +1,5 @@
-# N과 M (1)
+# N과 M (1) ( 정답 )
+# 알고리즘 : 백트래킹
 
 n, m = map(int, input().split())
 visited = [False for _ in range(n+1)]
